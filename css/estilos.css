@@ -1,0 +1,43 @@
+body{
+  background-color: gray;
+}
+svg{
+  background-color: white;
+}
+footer{
+  margin-top: 20px;
+}
+img
+{
+  border-radius: 20px;
+}
+#inicio{
+
+}
+#contenedor{
+  font-family: helvetica;
+  font-size: 16px;
+}
+#encabezado{
+  display: block;
+  margin: auto;
+}
+.itemindice{
+  list-style-type: upper-roman;
+}
+.enlace{
+  color: red;
+}
+a[href^-"html"]{
+  color: red;
+}
+img[src$=".svg"]{
+  border-radius: 50px;
+}
+img[src$=".jpg"],img[src$=".png"]{
+  border: 1px solid: black;
+  border-radius: 5px;
+}
+a[href]:visited{
+  color:green;
+}

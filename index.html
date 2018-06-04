@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Hoja de Vida</title>
+    <link rel="stylesheet" href="css/estilos.css">
   </head>
-  <body>
+  <body id="contenedor">
     <header>
       <svg width="260" height="150" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-        <g>
+        <g id="logo">
           <title>Logo</title>
           <g id="logoM" stroke="null">
             <line stroke-width="12" x1="20" y1="17" x2="20" y2="140" stroke="black" />
@@ -25,20 +26,19 @@
           </g>
         </g>
       </svg>
-      <h1 id="inicio">Hoja de Vida</h1>
       <p>
-        <h2>Nombre:</h2> <h3>Renato Mazzilli</h3>
+        <h1 id="inicio">Hoja de Vida</h1><h2>Nombre: Renato Mazzilli</h2>
       </p>
       <p>
-        <h2>Fecha de Nacimiento:</h2> <h3>Marzo 24, 1997</h3>
+        <h2>Fecha de Nacimiento:</h2>Marzo 24, 1997
       </p>
-    </header>
+    </header id="encabezado">
     <nav>
-      <p>
-        <a href="index.html">Inicio</a> |
-        <a href="html/educacion.html" target="_blank">Educacion</a> |
-        <a href="html/experiencia.html" target="_blank">Experiencia</a>
-      </p>
+      <ul>
+        <li class="itemindice"><a class="enlace" href="index.html">Inicio</a></li>
+        <li class="itemindice"><a class="enlace" href="html/educacion.html" target="_blank">Educacion</a></li>
+        <li class="itemindice"><a class="enlace"href="html/experiencia.html" target="_blank">Experiencia</a></li>
+      </ul>
     </nav>
     <section>
       <article>
